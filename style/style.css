@@ -1,0 +1,407 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* ----------- style navigation bar ------------ */
+.main-section {
+  background: rgba(255, 144, 14, 0.1);
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.main-section-box {
+  max-width: 1920px;
+  height: auto;
+  margin: 0 auto;
+  padding: 0 230px;
+  box-sizing: border-box;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  box-sizing: border-box;
+}
+.nav h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  transition: 0.5s;
+}
+.nav h1 a:hover {
+  border-bottom: 1px solid blue;
+}
+.nav ul {
+  display: flex;
+}
+.nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+/* -------when screen (max-width:1250px) Start ------- */
+@media screen and (max-width: 1250px) {
+  .main-section-box {
+    padding: 0 50px;
+  }
+  .love-and-girl {
+    flex-direction: column;
+  }
+  .love-enjoy p {
+    margin: 10px 10px;
+  }
+}
+/* -------when screen (max-width:1250px)End ------- */
+.nav ul li:last-child {
+  margin-right: 0px;
+}
+.nav ul li a {
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.nav ul li a:hover {
+  border-bottom: 1px solid blue;
+}
+
+.main-header {
+  margin: 0 auto;
+  max-width: 862px;
+  text-align: center;
+}
+.main-header h1 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  transition: 0.5s;
+  margin-bottom: 10px;
+}
+.main-header h1 a:hover {
+  border-bottom: 1px solid blue;
+}
+.main-header p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.btn-orange {
+  color: white;
+  font-size: 20px;
+  background-color: #ff900e;
+  border: none;
+  padding: 15px 24px;
+  border-radius: 5px;
+  margin: 30px 0;
+  transition: 0.5s;
+}
+.btn-orange:hover {
+  background-color: green;
+  cursor: pointer;
+}
+.banner {
+  max-width: 1420px;
+}
+.banner img {
+  margin: 30px auto;
+  width: 100%;
+}
+/* ---------- Photo and Quick List ----------- */
+.photo-wrapper {
+  align-items: center;
+  display: flex;
+  max-width: 1280px;
+  margin: 100px auto;
+  justify-content: space-between;
+}
+.photo-box {
+  max-width: 640px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 24px;
+}
+.photo-box img {
+  width: 100%;
+}
+.quick-list {
+  max-width: 640px;
+  align-items: center;
+  text-align: justify;
+  padding: 0px 25px;
+}
+.quick-list h1 {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+.quite-color {
+  color: #727272;
+}
+.features-color {
+  color: #ff900e;
+}
+.quick-list p {
+  color: #727272;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+/* ---------------- Love & Enjoy + Girl ------------------- */
+.love-and-girl {
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+}
+.love-enjoy {
+  margin-top: 30px;
+  width: 100%;
+  padding-right: 100px;
+}
+
+.girls-imgs {
+  width: 100%;
+  padding: 20px;
+}
+.love-enjoy h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  padding-left: 20px;
+  border-left: 5px solid #ff900e;
+}
+.love-enjoy p {
+  margin: 10px;
+  text-align: justify;
+}
+.box-01 {
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: -5px -5px 15px #b2b1b169;
+}
+.big-btn {
+  display: block;
+  margin: 30px auto;
+  color: white;
+  background-color: #ff900e;
+  padding: 20px 25px;
+  border-radius: 10px;
+  border: none;
+  transition: 0.5s;
+}
+.big-btn:hover {
+  background-color: green;
+  cursor: pointer;
+}
+.big-btn span {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 70px;
+}
+
+/* --------- article- start --------- */
+.article-s-f {
+  max-width: 1440px;
+  margin: 50px auto;
+  padding-left: 20px;
+}
+.article-s-f h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  margin-bottom: 10px;
+}
+.ratting {
+  margin: 0 auto;
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 50px;
+  box-sizing: border-box;
+}
+.ratting-1 {
+  margin: 0 auto;
+  padding-top: 50px;
+  box-sizing: border-box;
+  height: 240px;
+  width: 240px;
+  text-align: center;
+  border: 1px solid #ff900e;
+  border-radius: 5px;
+}
+.ratting-1 img {
+  width: 45px;
+  transition: 0.5s;
+}
+.ratting-1 img:hover {
+  filter: grayscale(75%);
+}
+.ratting-1 h2 {
+  padding: 10px;
+}
+/* ----------  Our Sponsors ---------- */
+.last-article {
+  text-align: center;
+}
+.last-article h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  margin-top: 180px;
+}
+
+.last-article p {
+  margin: 20px 0 50px 0;
+}
+.site-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 240px;
+  flex-wrap: wrap;
+}
+.site-section img {
+  width: 165px;
+  filter: grayscale(75%);
+  padding: 20px;
+}
+/* -------------- footer --------------- */
+footer {
+  max-width: 1440px;
+  background-color: #fff4e7;
+  padding: 38px;
+  text-align: center;
+  margin: 130px auto;
+}
+/* ----------- when screen (min-width:993px) and (max-width:1200px)  ------------- */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .photo-wrapper {
+    flex-direction: column;
+  }
+
+  .quick-list {
+    margin-top: 50px;
+  }
+  .love-enjoy > p {
+    margin: 13px 20px;
+  }
+  .love-enjoy h1 {
+    margin-left: 10px;
+  }
+
+  .love-and-girl {
+    flex-direction: column;
+  }
+  .love-enjoy p {
+    margin: 10px 10px;
+  }
+
+  .photo-wrapper {
+    flex-direction: column;
+  }
+
+  .ratting {
+    grid-template-columns: auto auto;
+  }
+}
+/* ----------- when screen (min-width:577px) and (max-width:992px) ------------- */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .nav ul {
+    flex-direction: column;
+    margin-top: 25px;
+  }
+  .main-section-box {
+    padding: 0 20px;
+  }
+
+  .nav h1 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 30px;
+  }
+  .nav ul li {
+    margin-right: 0px;
+  }
+
+  .photo-wrapper {
+    flex-direction: column;
+  }
+  .quick-list {
+    margin-top: 50px;
+  }
+  .photo-box {
+    grid-template-columns: auto;
+    gap: 35px;
+  }
+  .ratting {
+    grid-template-columns: auto auto;
+    gap: 30px;
+  }
+  .site-section {
+    padding: 0 40px;
+  }
+}
+
+/* ----------- when screen and (max-width:576px) ------------- */
+@media screen and (max-width: 576px) {
+  .nav {
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 150px;
+  }
+
+  .nav ul {
+    flex-direction: column;
+    margin-top: 25px;
+  }
+  .main-section-box {
+    padding: 0 20px;
+  }
+
+  .nav h1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 10px;
+  }
+
+  .nav ul li {
+    margin-right: 0px;
+  }
+  .photo-wrapper {
+    flex-direction: column;
+  }
+  .photo-box {
+    grid-template-columns: auto;
+  }
+  .ratting {
+    grid-template-columns: auto;
+  }
+  .site-section {
+    padding: 0 20px;
+  }
+  .big-btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  .big-btn span {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 30px;
+  }
+  .main-header h1 {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 35px;
+  }
+}
